@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav>
       <div className='container'>
         <div className={nav}>
-          <h3 className={logo}>Oubani Ayoub </h3>
+          <h3 className={logo}>Travel Blog </h3>
 
           <div
             className={click ? cx(navIcon, active) : navIcon}
