@@ -6,6 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Thinks from './components/thinks/Thinks';
 import Tips from './components/tips/Tips';
 import Videos from './components/videosSection/Videos';
+import Testimonial from './components/testimonial/Testimonial';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <Tips />
       <Adventure />
       <Videos />
+      <Testimonial />
     </div>
   );
 }

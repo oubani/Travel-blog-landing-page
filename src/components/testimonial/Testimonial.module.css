@@ -1,0 +1,37 @@
+.testim {
+  display: flex;
+  justify-content: space-between;
+}
+.testim .og {
+  font-size: 13rem;
+  margin-top: -80px;
+  position: relative;
+  margin-left: -60px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.testim pre {
+  align-self: center;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+.testim .trav {
+  font-size: 13rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: -50px;
+  margin-top: 100px;
+}
+@media only screen and (max-width: 900px) {
+  .testim {
+    padding: 1rem;
+  }
+  .testim .og,
+  .testim .trav {
+    display: none;
+  }
+  .testim pre {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
