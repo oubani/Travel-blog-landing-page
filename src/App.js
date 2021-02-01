@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Thinks from './components/thinks/Thinks';
 import Tips from './components/tips/Tips';
+import Videos from './components/videosSection/Videos';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <Thinks />
       <Tips />
       <Adventure />
+      <Videos />
     </div>
   );
 }

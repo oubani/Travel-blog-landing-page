@@ -1,0 +1,60 @@
+.videos h1 {
+  font-size: 8rem;
+  margin-bottom: -55px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.twogrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.twogrid video {
+  width: 100%;
+  box-shadow: 650px 250px 0px rgba(0, 0, 0, 0.9);
+}
+
+.twogrid ul {
+  list-style: none;
+}
+.active {
+  font-weight: bolder;
+}
+.twogrid ul li {
+  padding-left: 3rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid #000;
+  width: 120px;
+}
+.twogrid p {
+  padding: 5rem 4rem;
+  width: 600px;
+  line-height: 1.5rem;
+}
+@media only screen and (max-width: 900px) {
+  .videos h1 {
+    margin: 2rem auto;
+    font-size: 3rem;
+    text-align: center;
+    color: #000;
+  }
+  .twogrid {
+    padding: 2rem;
+    grid-template-columns: 1fr;
+  }
+  .twogrid video {
+    max-width: 100%;
+    text-align: center;
+    box-shadow: none;
+  }
+  .twogrid ul {
+    display: flex;
+  }
+  .twogrid ul li {
+    margin-right: 5px;
+    padding: 0.5rem 1.5rem;
+  }
+  .twogrid p {
+    width: 100%;
+    padding: 1rem;
+  }
+}
