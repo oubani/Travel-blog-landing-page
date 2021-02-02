@@ -8,6 +8,7 @@ import Tips from './components/tips/Tips';
 import Videos from './components/videosSection/Videos';
 import Testimonial from './components/testimonial/Testimonial';
 import Images from './components/imgagesSection/Images';
+import Footer from './footer/Footer';
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
       <Videos />
       <Testimonial />
       <Images />
+      <Footer />
     </div>
   );
 }

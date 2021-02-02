@@ -6,8 +6,12 @@ const Testimonial = () => {
     <div className={testim}>
       <h1 className={og}>og</h1>
       <pre>
-        tr <br />" We're a bold bunch of riders explores &<br /> hard-code
-        thrill seekers that bring it "
+        <i
+          style={{ fontSize: '4rem', marginBottom: '3rem' }}
+          className='icon ion-ios-quote'
+        ></i>{' '}
+        <br />" We're a bold bunch of riders explores &<br /> hard-code thrill
+        seekers that bring it "
       </pre>
       <h1 className={trav}>Trav</h1>
     </div>
