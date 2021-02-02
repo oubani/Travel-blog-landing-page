@@ -21,7 +21,7 @@ const Adventure = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
             quo natus iusto, excepturi ad laboriosam eligendi similique
           </p>
-          <a href='/'>Read More </a>
+          <a href='/'>Read More &#8594;</a>
         </div>
       </div>
       <div className={cx(twogrid, reversed)}>
@@ -34,7 +34,7 @@ const Adventure = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
             quo natus iusto, excepturi ad laboriosam eligendi similique
           </p>
-          <a href='/'>Read More </a>
+          <a href='/'> &#8594; Read More </a>
         </div>
       </div>
     </>

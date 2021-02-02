@@ -13,7 +13,7 @@ const Images = () => {
           itaque earum quaerat corrupti minus similique fugit illo, laboriosam
           iure?
         </p>
-        <a href='/'>read more</a>
+        <a href='/'>read more &#8594; </a>
       </div>
       <div className={sigleImg}>
         <img src='/images/trip4.png' alt='image' />
