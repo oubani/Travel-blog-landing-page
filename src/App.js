@@ -7,6 +7,7 @@ import Thinks from './components/thinks/Thinks';
 import Tips from './components/tips/Tips';
 import Videos from './components/videosSection/Videos';
 import Testimonial from './components/testimonial/Testimonial';
+import Images from './components/imgagesSection/Images';
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
       <Adventure />
       <Videos />
       <Testimonial />
+      <Images />
     </div>
   );
 }

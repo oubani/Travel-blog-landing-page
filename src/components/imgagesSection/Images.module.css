@@ -1,0 +1,62 @@
+.twoSection {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 2rem;
+  margin-top: -220px;
+}
+.info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+.info img {
+  width: 350px;
+  align-self: center;
+  justify-self: center;
+}
+.info h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin: 2rem 0 3rem;
+}
+.info p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+  padding: 2rem;
+}
+.info a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.twoSection div {
+  flex-grow: 1;
+  width: 100%;
+  padding: 2rem;
+}
+.twoSection .sigleImg {
+  margin-top: 60px;
+}
+@media only screen and (max-width: 900px) {
+  .twoSection {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .info h1,
+  .info p {
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .twoSection .sigleImg {
+    margin-top: 0px;
+    padding: auto;
+    text-align: center;
+  }
+}

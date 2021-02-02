@@ -1,6 +1,7 @@
 .testim {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 .testim .og {
   font-size: 13rem;
@@ -11,7 +12,8 @@
 }
 .testim pre {
   align-self: center;
-  margin-top: -50px;
+  margin-top: -60px;
+  margin-left: 5rem;
   text-align: center;
   font-size: 1.5rem;
   line-height: 1.8rem;
@@ -20,7 +22,7 @@
   font-size: 13rem;
   color: rgba(0, 0, 0, 0.5);
   margin-right: -50px;
-  margin-top: 100px;
+  margin-top: 300px;
 }
 @media only screen and (max-width: 900px) {
   .testim {
@@ -33,5 +35,8 @@
   .testim pre {
     font-size: 1.5rem;
     text-align: center;
+    margin-top: 1rem;
+    margin: auto;
+    z-index: 2;
   }
 }
